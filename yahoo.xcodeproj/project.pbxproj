@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		432E2F26172785E500F24ECD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432E2F25172785E500F24ECD /* QuartzCore.framework */; };
+		4361DC351726713600DA4E6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4361DC341726713600DA4E6E /* UIKit.framework */; };
+		4361DC371726713600DA4E6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4361DC361726713600DA4E6E /* Foundation.framework */; };
+		4361DC391726713600DA4E6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4361DC381726713600DA4E6E /* CoreGraphics.framework */; };
+		4361DC3F1726713600DA4E6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4361DC3D1726713600DA4E6E /* InfoPlist.strings */; };
+		4361DC411726713600DA4E6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4361DC401726713600DA4E6E /* main.m */; };
+		4361DC451726713600DA4E6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4361DC441726713600DA4E6E /* AppDelegate.m */; };
+		4361DC471726713600DA4E6E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4361DC461726713600DA4E6E /* Default.png */; };
+		4361DC491726713600DA4E6E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4361DC481726713600DA4E6E /* Default@2x.png */; };
+		4361DC4B1726713600DA4E6E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4361DC4A1726713600DA4E6E /* Default-568h@2x.png */; };
+		4361DC5317267CF700DA4E6E /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 4361DC5217267CF700DA4E6E /* Canvas.m */; };
+		4361DC5817267E6E00DA4E6E /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 4361DC5717267E6E00DA4E6E /* Page.m */; };
+		4361DC5B17267FFE00DA4E6E /* sidebar_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4361DC5A17267FFE00DA4E6E /* sidebar_icon@2x.png */; };
+		4361DC601726823B00DA4E6E /* pic0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4361DC5C1726823B00DA4E6E /* pic0.jpg */; };
+		4361DC611726823B00DA4E6E /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4361DC5D1726823B00DA4E6E /* pic1.jpg */; };
+		4361DC621726823B00DA4E6E /* pic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4361DC5E1726823B00DA4E6E /* pic2.jpg */; };
+		4361DC631726823B00DA4E6E /* pic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4361DC5F1726823B00DA4E6E /* pic3.jpg */; };
+		4361DC6617268B5D00DA4E6E /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4361DC6517268B5D00DA4E6E /* Menu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		432E2F25172785E500F24ECD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4361DC311726713600DA4E6E /* yahoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yahoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4361DC341726713600DA4E6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4361DC361726713600DA4E6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4361DC381726713600DA4E6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4361DC3C1726713600DA4E6E /* yahoo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yahoo-Info.plist"; sourceTree = "<group>"; };
+		4361DC3E1726713600DA4E6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4361DC401726713600DA4E6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4361DC421726713600DA4E6E /* yahoo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yahoo-Prefix.pch"; sourceTree = "<group>"; };
+		4361DC431726713600DA4E6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4361DC441726713600DA4E6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4361DC461726713600DA4E6E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4361DC481726713600DA4E6E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4361DC4A1726713600DA4E6E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4361DC5117267CF700DA4E6E /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		4361DC5217267CF700DA4E6E /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		4361DC5417267D3900DA4E6E /* ZXConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXConfig.h; sourceTree = "<group>"; };
+		4361DC5517267D3900DA4E6E /* ZXMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMacro.h; sourceTree = "<group>"; };
+		4361DC5617267E6E00DA4E6E /* Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		4361DC5717267E6E00DA4E6E /* Page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
+		4361DC5A17267FFE00DA4E6E /* sidebar_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sidebar_icon@2x.png"; sourceTree = "<group>"; };
+		4361DC5C1726823B00DA4E6E /* pic0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic0.jpg; sourceTree = "<group>"; };
+		4361DC5D1726823B00DA4E6E /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.jpg; sourceTree = "<group>"; };
+		4361DC5E1726823B00DA4E6E /* pic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic2.jpg; sourceTree = "<group>"; };
+		4361DC5F1726823B00DA4E6E /* pic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic3.jpg; sourceTree = "<group>"; };
+		4361DC6417268B5D00DA4E6E /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		4361DC6517268B5D00DA4E6E /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4361DC2E1726713600DA4E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432E2F26172785E500F24ECD /* QuartzCore.framework in Frameworks */,
+				4361DC351726713600DA4E6E /* UIKit.framework in Frameworks */,
+				4361DC371726713600DA4E6E /* Foundation.framework in Frameworks */,
+				4361DC391726713600DA4E6E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4361DC281726713600DA4E6E = {
+			isa = PBXGroup;
+			children = (
+				4361DC3A1726713600DA4E6E /* yahoo */,
+				4361DC331726713600DA4E6E /* Frameworks */,
+				4361DC321726713600DA4E6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4361DC321726713600DA4E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4361DC311726713600DA4E6E /* yahoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4361DC331726713600DA4E6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				432E2F25172785E500F24ECD /* QuartzCore.framework */,
+				4361DC341726713600DA4E6E /* UIKit.framework */,
+				4361DC361726713600DA4E6E /* Foundation.framework */,
+				4361DC381726713600DA4E6E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4361DC3A1726713600DA4E6E /* yahoo */ = {
+			isa = PBXGroup;
+			children = (
+				4361DC5917267FFE00DA4E6E /* images */,
+				4361DC5417267D3900DA4E6E /* ZXConfig.h */,
+				4361DC5517267D3900DA4E6E /* ZXMacro.h */,
+				4361DC431726713600DA4E6E /* AppDelegate.h */,
+				4361DC441726713600DA4E6E /* AppDelegate.m */,
+				4361DC5117267CF700DA4E6E /* Canvas.h */,
+				4361DC5217267CF700DA4E6E /* Canvas.m */,
+				4361DC5617267E6E00DA4E6E /* Page.h */,
+				4361DC5717267E6E00DA4E6E /* Page.m */,
+				4361DC6417268B5D00DA4E6E /* Menu.h */,
+				4361DC6517268B5D00DA4E6E /* Menu.m */,
+				4361DC3B1726713600DA4E6E /* Supporting Files */,
+			);
+			path = yahoo;
+			sourceTree = "<group>";
+		};
+		4361DC3B1726713600DA4E6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4361DC3C1726713600DA4E6E /* yahoo-Info.plist */,
+				4361DC3D1726713600DA4E6E /* InfoPlist.strings */,
+				4361DC401726713600DA4E6E /* main.m */,
+				4361DC421726713600DA4E6E /* yahoo-Prefix.pch */,
+				4361DC461726713600DA4E6E /* Default.png */,
+				4361DC481726713600DA4E6E /* Default@2x.png */,
+				4361DC4A1726713600DA4E6E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4361DC5917267FFE00DA4E6E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4361DC5C1726823B00DA4E6E /* pic0.jpg */,
+				4361DC5D1726823B00DA4E6E /* pic1.jpg */,
+				4361DC5E1726823B00DA4E6E /* pic2.jpg */,
+				4361DC5F1726823B00DA4E6E /* pic3.jpg */,
+				4361DC5A17267FFE00DA4E6E /* sidebar_icon@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4361DC301726713600DA4E6E /* yahoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4361DC4E1726713600DA4E6E /* Build configuration list for PBXNativeTarget "yahoo" */;
+			buildPhases = (
+				4361DC2D1726713600DA4E6E /* Sources */,
+				4361DC2E1726713600DA4E6E /* Frameworks */,
+				4361DC2F1726713600DA4E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yahoo;
+			productName = yahoo;
+			productReference = 4361DC311726713600DA4E6E /* yahoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4361DC291726713600DA4E6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = me.zhangxi;
+			};
+			buildConfigurationList = 4361DC2C1726713600DA4E6E /* Build configuration list for PBXProject "yahoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4361DC281726713600DA4E6E;
+			productRefGroup = 4361DC321726713600DA4E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4361DC301726713600DA4E6E /* yahoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4361DC2F1726713600DA4E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4361DC3F1726713600DA4E6E /* InfoPlist.strings in Resources */,
+				4361DC471726713600DA4E6E /* Default.png in Resources */,
+				4361DC491726713600DA4E6E /* Default@2x.png in Resources */,
+				4361DC4B1726713600DA4E6E /* Default-568h@2x.png in Resources */,
+				4361DC5B17267FFE00DA4E6E /* sidebar_icon@2x.png in Resources */,
+				4361DC601726823B00DA4E6E /* pic0.jpg in Resources */,
+				4361DC611726823B00DA4E6E /* pic1.jpg in Resources */,
+				4361DC621726823B00DA4E6E /* pic2.jpg in Resources */,
+				4361DC631726823B00DA4E6E /* pic3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4361DC2D1726713600DA4E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4361DC411726713600DA4E6E /* main.m in Sources */,
+				4361DC451726713600DA4E6E /* AppDelegate.m in Sources */,
+				4361DC5317267CF700DA4E6E /* Canvas.m in Sources */,
+				4361DC5817267E6E00DA4E6E /* Page.m in Sources */,
+				4361DC6617268B5D00DA4E6E /* Menu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4361DC3D1726713600DA4E6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4361DC3E1726713600DA4E6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4361DC4C1726713600DA4E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4361DC4D1726713600DA4E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4361DC4F1726713600DA4E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yahoo/yahoo-Prefix.pch";
+				INFOPLIST_FILE = "yahoo/yahoo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4361DC501726713600DA4E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yahoo/yahoo-Prefix.pch";
+				INFOPLIST_FILE = "yahoo/yahoo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4361DC2C1726713600DA4E6E /* Build configuration list for PBXProject "yahoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4361DC4C1726713600DA4E6E /* Debug */,
+				4361DC4D1726713600DA4E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4361DC4E1726713600DA4E6E /* Build configuration list for PBXNativeTarget "yahoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4361DC4F1726713600DA4E6E /* Debug */,
+				4361DC501726713600DA4E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4361DC291726713600DA4E6E /* Project object */;
+}

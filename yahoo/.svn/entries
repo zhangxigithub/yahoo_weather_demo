@@ -1,0 +1,175 @@
+10
+
+dir
+0
+svn://www.oksvn.com/gamezx/yahoo/yahoo
+svn://www.oksvn.com/gamezx
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1866c10b-87d9-3046-a89b-db91ab9bad9f
+
+main.m
+file
+
+
+
+add
+
+Default@2x.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+yahoo-Prefix.pch
+file
+
+
+
+add
+
+en.lproj
+dir
+
+
+
+add
+
+Menu.h
+file
+
+
+
+add
+
+Menu.m
+file
+
+
+
+add
+
+AppDelegate.h
+file
+
+
+
+add
+
+Canvas.h
+file
+
+
+
+add
+
+yahoo-Info.plist
+file
+
+
+
+add
+
+Page.h
+file
+
+
+
+add
+
+images
+dir
+
+
+
+add
+
+AppDelegate.m
+file
+
+
+
+add
+
+Canvas.m
+file
+
+
+
+add
+
+Default.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Page.m
+file
+
+
+
+add
+
+ZXMacro.h
+file
+
+
+
+add
+
+Default-568h@2x.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ZXConfig.h
+file
+
+
+
+add
+
