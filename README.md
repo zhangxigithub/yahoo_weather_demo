@@ -6,5 +6,5 @@ yahoo_weather_demo
 自娱自乐的东西，代码比较乱。
 
 
-[演示视频](http://zhangxi.me)
+[演示视频](http://v.youku.com/v_show/id_XNTQ3MjkzMzg4.html)
 
