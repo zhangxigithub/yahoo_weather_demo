@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LoadingStatusView.h"
 
 #define kPageWidth 325.0f
 
@@ -30,6 +30,9 @@
     
     UIButton *menuButton;
     UIView *loadingView;
+    LoadingStatusView *loadingStatus;
+    
+    CGPoint startPoint;
 }
 -(id)initWithIndex:(int)index;
 -(void)moveBackgroundImage:(float)aIndex;

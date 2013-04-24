@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		432E2F26172785E500F24ECD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432E2F25172785E500F24ECD /* QuartzCore.framework */; };
+		4356EE551727B92200A34123 /* UIView+ZXQuartz.m in Sources */ = {isa = PBXBuildFile; fileRef = 4356EE541727B92200A34123 /* UIView+ZXQuartz.m */; };
+		4356EE581727B93B00A34123 /* LoadingStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4356EE571727B93B00A34123 /* LoadingStatusView.m */; };
 		4361DC351726713600DA4E6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4361DC341726713600DA4E6E /* UIKit.framework */; };
 		4361DC371726713600DA4E6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4361DC361726713600DA4E6E /* Foundation.framework */; };
 		4361DC391726713600DA4E6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4361DC381726713600DA4E6E /* CoreGraphics.framework */; };
@@ -29,6 +31,10 @@
 
 /* Begin PBXFileReference section */
 		432E2F25172785E500F24ECD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4356EE531727B92200A34123 /* UIView+ZXQuartz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXQuartz.h"; sourceTree = "<group>"; };
+		4356EE541727B92200A34123 /* UIView+ZXQuartz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXQuartz.m"; sourceTree = "<group>"; };
+		4356EE561727B93B00A34123 /* LoadingStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingStatusView.h; sourceTree = "<group>"; };
+		4356EE571727B93B00A34123 /* LoadingStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingStatusView.m; sourceTree = "<group>"; };
 		4361DC311726713600DA4E6E /* yahoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yahoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4361DC341726713600DA4E6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4361DC361726713600DA4E6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -72,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4356EE521727B92200A34123 /* ZXQuartz */ = {
+			isa = PBXGroup;
+			children = (
+				4356EE531727B92200A34123 /* UIView+ZXQuartz.h */,
+				4356EE541727B92200A34123 /* UIView+ZXQuartz.m */,
+			);
+			path = ZXQuartz;
+			sourceTree = "<group>";
+		};
 		4361DC281726713600DA4E6E = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				4361DC5917267FFE00DA4E6E /* images */,
+				4356EE521727B92200A34123 /* ZXQuartz */,
 				4361DC5417267D3900DA4E6E /* ZXConfig.h */,
 				4361DC5517267D3900DA4E6E /* ZXMacro.h */,
 				4361DC431726713600DA4E6E /* AppDelegate.h */,
@@ -114,6 +130,8 @@
 				4361DC5717267E6E00DA4E6E /* Page.m */,
 				4361DC6417268B5D00DA4E6E /* Menu.h */,
 				4361DC6517268B5D00DA4E6E /* Menu.m */,
+				4356EE561727B93B00A34123 /* LoadingStatusView.h */,
+				4356EE571727B93B00A34123 /* LoadingStatusView.m */,
 				4361DC3B1726713600DA4E6E /* Supporting Files */,
 			);
 			path = yahoo;
@@ -220,6 +238,8 @@
 				4361DC5317267CF700DA4E6E /* Canvas.m in Sources */,
 				4361DC5817267E6E00DA4E6E /* Page.m in Sources */,
 				4361DC6617268B5D00DA4E6E /* Menu.m in Sources */,
+				4356EE551727B92200A34123 /* UIView+ZXQuartz.m in Sources */,
+				4356EE581727B93B00A34123 /* LoadingStatusView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
